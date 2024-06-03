@@ -4,17 +4,17 @@ A command line tool to easily clone gerrit repositories in bulk.
 
 ## installation
 
-To install run the following command in your terminal:
+To install, run:
 
 ```pip3 install gerrit-sync```
 
 ## usage
 
-If you just want to see which commands will be run, use:
+For a dry run:
 
 ```gerrit-sync --gerrit-user myuser --gerrit-url https://gerrit.mydomain.com --dry-run```
 
-If you want the actual commands to be run, use:
+To apply:
 
 ```gerrit-sync --gerrit-user myuser --gerrit-url https://gerrit.mydomain.com```
 
